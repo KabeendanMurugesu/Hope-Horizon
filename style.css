@@ -69,31 +69,204 @@ nav {
 
 /* Content styling */
 div {
-    padding: 250px 20px; /* Ensure enough space inside sections */
+    padding: 60px 20px; /* Ensure enough space inside sections */
     
 }
 
 #section1 {
-    background-color: rgba(173,216,230,0.8);
-    text-align: center;
+    display: flex; /* Use Flexbox to align items horizontally */
+    align-items: center; /* Vertically center the content */
+    background-color: rgba(173, 216, 230, 0.8);
+    padding: 80px 20px; /* Ensure spacing inside the section */
 }
 
+#section1 img {
+    max-width: 400px; /* Limit image size */
+    height: auto;
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+#section1 p {
+    flex: 1; /* Allow text to take remaining space */
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+
+
 #section2 {
-    background-color: rgba(255, 255, 204, 0.3)
-    ;
-    text-align: center;
+    padding: 80px 20px;
+    background-color: rgba(255, 255, 204, 0.3); /* Light yellow background */
+}
+
+.columns {
+    column-count: 2; /* Number of columns */
+    column-gap: 30px; /* Space between columns */
+    line-height: 1.6; /* Adjust line spacing for readability */
+}
+
+h1, h2 {
+    text-align: center; /* Center-align headings */
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px; /* Add padding for list items */
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px; /* Add spacing between list items */
 }
 
 #section3 {
-    background-color: rgba(173,216,230,0.8);
-    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(173, 216, 230, 0.3); /* Light blue background */
 }
+
+.video-container {
+    display: flex; /* Use Flexbox to align videos side by side */
+    justify-content: space-between; /* Add equal spacing between videos */
+    flex-wrap: wrap; /* Ensure videos wrap on smaller screens */
+    gap: 20px; /* Add space between videos */
+}
+
+.video {
+    flex: 1; /* Allow videos to take equal space */
+    max-width: 45%; /* Limit the maximum width of each video */
+    text-align: center; /* Center-align text in each video container */
+}
+
+.video iframe {
+    width: 100%; /* Make iframe responsive to the container */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 16 / 9;
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
 
 #section4 {
-    background-color: rgba(255, 255, 204, 0.3)
-    ;
-    text-align: center;
+    padding: 40px 20px;
+    background-color: #fafafa; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-      
+#section4 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.affirmations {
+    display: flex; /* Flexbox layout for alignment */
+    justify-content: space-around; /* Space between items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between items */
+}
+
+.affirmation {
+    max-width: 300px; /* Ensure consistent width for each card */
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.affirmation img {
+    width: 100%; /* Make images responsive */
+    max-width: 200px; /* Ensure images have a consistent max size */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Enforce square ratio */
+    border-radius: 50%; /* Circular images */
+    object-fit: cover; /* Maintain aspect ratio and avoid distortion */
+    margin-bottom: 15px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #333;
+    margin: 10px 0;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .affirmations {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+}
+
+
+#section5 {
+    padding: 40px 20px;
+    background-color: rgba(173, 216, 230, 0.3); /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#section5 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.resource-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove default border spacing */
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.resource-table th, .resource-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Add horizontal lines between rows */
+}
+
+.resource-table th {
+    background-color: #658CBB; /* Header background color */
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.resource-table tr:hover {
+    background-color: #f5f5f5; /* Highlight row on hover */
+}
+
+.resource-table a {
+    color: #3366cc; /* Link color */
+    text-decoration: none;
+}
+
+.resource-table a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
 
