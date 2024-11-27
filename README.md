@@ -34,13 +34,13 @@ Smooth scrolling was implemented on the website so that the nav bar scrolls smoo
 
 Videos were included to give the user breaks from reading too much content, and the design of images in the hero stories was made circular to give a portrait effect which I believe to be aesthetically pleasing. 
 
-#Future Features
+# Future Features
 
 Given the constraint of time, I made the website very simplistic and for future features, I consider the addition of some form of blog section. 
 
 Furthermore, I think that mulitple pages to the website would aid in navigation of the wesbite and means that information at the bottom of the website is not missed as easily. 
 
-#Future Improvements (Bugs and Fixes)
+# Future Improvements (Bugs and Fixes)
 
 I found bugs throughout the project and fixed them accordingly. However, I found it difficult to remove the white space oat the top of the website under the nav bar and above the About section. 
 
@@ -50,7 +50,7 @@ I also forgot to compress the images and thus the lighthouse perfmance rating wa
 
 
 
-#Testing 
+# Testing 
 ![alt text](<images/Screenshot 2024-11-27 at 12.14.09.png>)
 
 The W3C Validator came back with no bugs and fixes for both my HTML and CSS code. 
@@ -61,6 +61,6 @@ Manually Testing, the videos play when prompted, and the nav bar works when clic
 
 The lighthouse report came back decent although there was room for improvement on best practices.
 
-#Credits 
+# Credits 
 
 Credits have been produced through the README but I'd like to credit the use of AI tools such as Mcirosoft CoPilot and Chat-GPT for aid with producing tet, finding video urls and debugging code. 
