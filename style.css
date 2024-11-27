@@ -97,7 +97,7 @@ div {
     margin: 0 auto;
 }
 
-}
+
 
 /* Responsive design adjustments */
 @media (max-width: 768px) {
@@ -106,13 +106,9 @@ div {
     }
 }
 
-@media (max-width: 480px) {
-    .horizon-image {
-        max-width: 80%; /* Further reduce the image size for very small screens */
-    }
-}
 
-}
+
+
 
 #section1 p {
     flex: 1; /* Allow text to take remaining space */
