@@ -3,13 +3,13 @@ Hope Horizon is an inclusive platform targeted at all adults to promote mental h
 
 # List of Features 
 
-The navigation bar links through smooth scrolling to the About , Info, Hero Stories, Positive Affirmations, and Resourcinks.
+The navigation bar links through smooth scrolling to the About , Info, Hero Stories, Positive Affirmations, and Resource links.
 
 The Horizon image depicts the hope above the horizon, slightly mor epositive messaging than the light at the end of the tunnel.
 
 The About section details what the website's purpose is and gives the user an idea of what to expect for the forthcoming website
 
-The information section details specific mental helath disorders and how to manage one's mental health. This wass included to aid those struggling with or without a diagnosis. Please note Chat GPT was used to create all informative texts. 
+The information section details specific mental health disorders and how to manage one's mental health. This wass included to aid those struggling with or without a diagnosis. Please note Chat GPT was used to create all informative texts. 
 
 The hero stories section was included as a video section to give the user a break from reading. Two stories were included which were found on YouTube. Here are the links: 1) https://www.youtube.com/watch?v=23ZXCYPE0Ks and 2)https://www.youtube.com/watch?v=X2_oTLasXu0
 
@@ -32,6 +32,35 @@ The site is presented in a minimalist manner to present thebuser with all of the
 
 Smooth scrolling was implemented on the website so that the nav bar scrolls smoothly to the appropriate section once clicked.
 
-Videos were included to give the user breaks from reading too much content, and the design of images in the hero stories was made circular to give a portrait effect whichbI believe to be aesthetically pleasing. 
+Videos were included to give the user breaks from reading too much content, and the design of images in the hero stories was made circular to give a portrait effect which I believe to be aesthetically pleasing. 
+
+#Future Features
+
+Given the constraint of time, I made the website very simplistic and for future features, I consider the addition of some form of blog section. 
+
+Furthermore, I think that mulitple pages to the website would aid in navigation of the wesbite and means that information at the bottom of the website is not missed as easily. 
+
+#Future Improvements (Bugs and Fixes)
+
+I found bugs throughout the project and fixed them accordingly. However, I found it difficult to remove the white space oat the top of the website under the nav bar and above the About section. 
+
+The colour scheme of the footer always needs amendment to match the style of the page. 
+
+I also forgot to compress the images and thus the lighthouse perfmance rating was rather poor. 
 
 
+
+#Testing 
+![alt text](<images/Screenshot 2024-11-27 at 12.14.09.png>)
+
+The W3C Validator came back with no bugs and fixes for both my HTML and CSS code. 
+
+Manually Testing, the videos play when prompted, and the nav bar works when clicked. OTher than that, there is not much interactvity in my website. 
+
+![alt text](<images/Screenshot 2024-11-27 at 13.05.32.png>)
+
+The lighthouse report came back decent although there was room for improvement on best practices.
+
+#Credits 
+
+Credits have been produced through the README but I'd like to credit the use of AI tools such as Mcirosoft CoPilot and Chat-GPT for aid with producing tet, finding video urls and debugging code. 
